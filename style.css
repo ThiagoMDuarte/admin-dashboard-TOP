@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 50% 200px;
+    grid-template-rows: 60px 500px;
+
+    grid-template-areas: 
+    'dashboard header header'
+    'dashboard yourprojects side-panel';
+}
+
+.container > div {
+    border: 1px solid red;
+}
+
+.header {
+    grid-area: header;
+}
+
+.dashboard {
+    grid-area: dashboard;
+}
+
+.yourprojects{
+    grid-area: yourprojects;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.yourprojects > * {
+    border: 1px solid blue;
+}
+.side-panel {
+    grid-area: side-panel;
+    display: grid;
+    justify-content: space-between;
+
+}
+.side-panel > * {
+    border: 1px solid blue;
+}
