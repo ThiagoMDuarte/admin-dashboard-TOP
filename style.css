@@ -59,6 +59,16 @@
     grid-area: 4 / 2;
 }
 
+.dashboard {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.dashboard > * {
+    border: solid 1px green;
+    text-align: justify;
+    margin-left: 5%;
+}
 
 .side-panel {
     grid-area: side-panel;
