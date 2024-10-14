@@ -17,8 +17,7 @@ Bem-vindo ao projeto Admin Dashboard! Este projeto faz parte do currículo do Th
 
 ## Demonstração
 
-Você pode visualizar a aplicação ao vivo [neste link](https://ThiagoMDuarte.github.io/admin-dashboard-TOP/) (substitua pelo link correto se necessário).
-
+Você pode visualizar a aplicação ao vivo [neste link](https://ThiagoMDuarte.github.io/admin-dashboard-TOP/)
 ## Agradecimentos
 
 - The Odin Project pela inspiração e orientação.
