@@ -196,17 +196,18 @@ body, html {
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 10px;
-
 }
 
 .announcements div, .trending div {
     margin-bottom: 10px;
-
 }
 
 .announcements div h3, .trending div h4 {
     margin-bottom: 5px;
-
+}
+.annouce-container, .trend-container {
+    border-radius: 8px;
+    box-shadow: var(--color-secondary) 0 3px 1px;
 }
 
 img {
