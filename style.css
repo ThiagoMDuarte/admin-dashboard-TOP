@@ -2,11 +2,18 @@
     padding: 0;
     box-sizing: border-box;    
 }
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
 
 .container {
+    width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: 200px 50% 200px;
-    grid-template-rows: 60px 500px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 60px 1fr;
 
     grid-template-areas: 
     'dashboard header header'
@@ -78,4 +85,26 @@
 }
 .side-panel > * {
     border: 1px solid blue;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header > * {
+    border: 1px orange solid;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    margin-top: 0;
+}
+h3, h4 {
+    margin-bottom: 0;
 }
